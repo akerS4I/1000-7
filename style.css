@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'hard';
+  src: url('HARDBOR.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 300ms;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+p {
+  position: absolute;
+  z-index: 10;
+  font-size: 60px;
+  color: #fff;
+  font-family: hard;
+}
+
+.btn{
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  margin-top: 150px;
+  width: 450px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.671);
+  font-family: hard;
+  font-size: 60px;
+  color: #fff;
+  font-family: hard;
+}
+
+.btn:hover{
+  color: #ff000f;
+}
