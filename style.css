@@ -39,15 +39,17 @@ p {
 .btn{
   position: absolute;
   z-index: 10;
+
   cursor: pointer;
-  margin-top: 150px;
-  width: 450px;
-  height: 50px;
+
+  margin-top: 200px;
+  padding: 13px 10px 8px;
+
   background-color: rgba(0, 0, 0, 0.671);
+
   font-family: hard;
   font-size: 60px;
   color: #fff;
-  font-family: hard;
 }
 
 .btn:hover{
